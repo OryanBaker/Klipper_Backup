@@ -46,6 +46,7 @@ timer = 0.05
 [update_manager]
 refresh_interval = 168
 enable_auto_refresh = True
+channel = beta
 
 [update_manager mainsail]
 type = web
@@ -111,14 +112,14 @@ requirements = scripts/KlipperScreen-requirements.txt
 system_dependencies = scripts/system-dependencies.json
 managed_services = KlipperScreen
 
-[update_manager pgcode]
+[update_manager Pretty GCode]
 type = git_repo
 primary_branch = main
 origin = https://github.com/Kragrathea/pgcode.git
 path = ~/pgcode
 is_system_service = False
 
-[update_manager Klipper-Adaptive-Meshing-Purging]
+[update_manager Klipper Adaptive Meshing Purging]
 type = git_repo
 channel = dev
 path = ~/Klipper-Adaptive-Meshing-Purging
@@ -126,7 +127,7 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
-[update_manager klipper_tmc_autotune]
+[update_manager Klipper TMC Autotune]
 type = git_repo
 channel = dev
 path = ~/klipper_tmc_autotune
@@ -146,11 +147,17 @@ install_script = install.sh
 managed_services = 
 	octoeverywhere
 
-[update_manager client klipper-backup]
+[update_manager client Klipper Github Backup]
 type = git_repo
 primary_branch = main
 origin = https://github.com/OryanBaker/Klipper_Backup.git
 path = ~/klipper-backup
 install_script = install.sh
 is_system_service = False
+
+[update_manager Auto Z Calibration]
+type = git_repo
+path = ~/klipper_z_calibration
+origin = https://github.com/protoloft/klipper_z_calibration.git
+managed_services = klipper
 
