@@ -35,7 +35,7 @@ subscriptions =
 [power Printer_ON]
 type = gpio
 pin = gpio21
-off_when_shutdown = true
+off_when_shutdown = false
 on_when_job_queued = True
 locked_while_printing = True
 restart_klipper_when_powered = true
