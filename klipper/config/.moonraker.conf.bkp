@@ -30,7 +30,7 @@ trusted_clients =
 
 [announcements]
 subscriptions = 
-	octoeverywhere
+	mainsail
 
 [power Printer_ON]
 type = gpio
@@ -97,10 +97,10 @@ env = /home/pi/mobileraker-env/bin/python
 requirements = scripts/mobileraker-requirements.txt
 install_script = scripts/install-mobileraker-companion.sh
 
-[update_manager CanBoot]
+[update_manager Katapult]
 type = git_repo
-path = /home/pi/CanBoot
-origin = https://github.com/Arksine/CanBoot.git
+path = /home/pi/katapult
+origin = https://github.com/Arksine/katapult.git
 is_system_service = False
 
 [update_manager KlipperScreen]
@@ -111,13 +111,6 @@ virtualenv = ~/.KlipperScreen-env
 requirements = scripts/KlipperScreen-requirements.txt
 system_dependencies = scripts/system-dependencies.json
 managed_services = KlipperScreen
-
-[update_manager Pretty GCode]
-type = git_repo
-primary_branch = main
-origin = https://github.com/Kragrathea/pgcode.git
-path = ~/pgcode
-is_system_service = False
 
 [update_manager Klipper Adaptive Meshing Purging]
 type = git_repo
@@ -135,17 +128,6 @@ origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services = klipper
 primary_branch = main
 install_script = install.sh
-
-[update_manager octoeverywhere]
-type = git_repo
-channel = beta
-path = /home/pi/octoeverywhere
-origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
-env = /home/pi/octoeverywhere-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	octoeverywhere
 
 [update_manager client Klipper Github Backup]
 type = git_repo
