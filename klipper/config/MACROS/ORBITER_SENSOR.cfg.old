@@ -85,7 +85,7 @@ gcode:
   G4 P2000 # wait for two seconds
   G0 E4.5 F3600 # push the filament back 
   G0 E-5 F3600 	#extract filament to cold end
-  G0 E-75 F300	# continue extraction slow allow filament to be cooled enough before reaches the gears  
+  G0 E-100 F300	# continue extraction slow allow filament to be cooled enough before reaches the gears  
   M400
   M117 Load new filament! Wait until is loaded, then resume printing.
   M118 Load new filament! Wait until is loaded, then resume printing.
