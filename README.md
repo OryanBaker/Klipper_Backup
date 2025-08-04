@@ -5,27 +5,27 @@ Source code and workflow: "klipper-backup"
 
 # Setup
 + Printer: Ender 5 Plus
-- Firmware: Klipper
-+ Interface: Mainsail
-- Mainboard: BIGTREETECH Octopus v1.1 STM32F446ZET6
-- Host: Raspberry Pi 5 8GB w/ 1tb NVME M.2
-- Stepper Drivers: TMC2209
-+ Extruder: Microswiss Direct Drive
-- Probe: CRTouch
-+ Slicer of choice: Cura 5.10.1
-
-+ Planned Mods:
-- ZeroG Mercury One.1
-- EVA 2.4
-- Orbiter 1.5
-- V6 Ceramic Volcano
-- Hydra Bed Mod
-- Enclosure
-- Rear Mount Electronics
-- Enclosure Heater
-- Anycubic Live View Camera
-- Sexbolt Nozzle Probe
-- Canbus Hotend
+  - Firmware: Klipper
+  - Interface: Mainsail
+  - Mainboard: BIGTREETECH Octopus v1.1 STM32F446ZET6
+  - Host: Raspberry Pi 5 8GB w/ 1tb NVME M.2
+  - Stepper Drivers: TMC2209
+  - Extruder: Microswiss Direct Drive
+  - Probe: CRTouch
+  - Slicer of choice: Cura 5.10.1
+  - Planned Mods:
+    - ZeroG Mercury One.1
+    - EVA 2.4
+    - Orbiter 1.5
+    - V6 Ceramic Volcano
+    - Eddy Duo Probe
+    - Hydra Bed Mod
+    - Enclosure
+    - Rear Mount Electronics
+    - Enclosure Heater
+    - Anycubic Live View Camera
+    - Sexbolt Nozzle Probe
+    - Canbus Hotend
 
 
 # klipper-backup 💾 
