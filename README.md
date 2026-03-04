@@ -5,8 +5,8 @@ Source code and workflow: "klipper-backup"
 
 # Setup
 + Printer: Ender 5 Plus w/ Mercury One.1 CoreXY Conversion
-  - Firmware: Klipper
-  - Interface: Mainsail
+  - Firmware: Klipper v0.13.0-563-gf1fb5756
+  - Interface: Mainsail v2.17.0
   - Mainboard: BIGTREETECH Octopus v1.1 STM32F446ZET6
   - Host: Raspberry Pi 5 8GB w/ 1tb NVME M.2
   - Camera: Anycubic Live View Camera
