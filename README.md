@@ -4,29 +4,24 @@ I use the script backup_script.sh to automatically upload my Klipper files as a 
 Source code and workflow: "klipper-backup"
 
 # Setup
-+ Printer: Ender 5 Plus
++ Printer: Ender 5 Plus w/ Mercury One.1 CoreXY Conversion
   - Firmware: Klipper
   - Interface: Mainsail
   - Mainboard: BIGTREETECH Octopus v1.1 STM32F446ZET6
   - Host: Raspberry Pi 5 8GB w/ 1tb NVME M.2
-  - Stepper Drivers: TMC2209
-  - Extruder: Microswiss Direct Drive
-  - Probe: CRTouch
+  - Camera: Anycubic Live View Camera
+  - Stepper Drivers: TMC2209 Autotune TMC
+  - Extruder: EBB36 Canbus V6 Ceraminc Volcano
+  - Probe: Eddy Duo Probe Canbus
   - Slicer of choice: Cura 5.10.1
   - Planned Mods:
-    - ZeroG Mercury One.1
+    - ZeroG Hydra Bed Mod
     - EVA 2.4
     - Orbiter 1.5
-    - V6 Ceramic Volcano
-    - Eddy Duo Probe
-    - Hydra Bed Mod
     - Enclosure
     - Rear Mount Electronics
     - Enclosure Heater
-    - Anycubic Live View Camera
     - Sexbolt Nozzle Probe
-    - Canbus Hotend
-
 
 # klipper-backup 💾 
 Klipper backup script for manual or automated GitHub backups 
