@@ -30,7 +30,7 @@ Source code and workflow: "klipper-backup"
   - Stepper Drivers: TMC2209 Autotune TMC
   - Extruder: EBB36 Canbus V6 Ceraminc Volcano
   - Probe: Eddy Duo Probe Canbus
-  - Power: APC Battery Backup with Web Interface & Lithium Ion Batteries
+  - Power: APC XS 1200 with Web Interface & Lithium Ion Batteries
   - Slicer of choice: Cura 5.10.1
   - Planned Mods:
     - ZeroG Hydra Bed Mod
